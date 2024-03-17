@@ -6,17 +6,17 @@ import { FaArrowRight } from "react-icons/fa";
 const Articles = () => {
   return (
     <div className="p-10 space-y-6">
-      <div className="space-y-2">
-        <h2 className="text-xl font-semibold">
-          Female-Focused Tech Articles And News
+      <div className="space-y-1">
+        <h2 className="text-2xl font-bold">
+          Female-Focused Tech Articles & News
         </h2>
-        <p className="max-w-3xl mb-3">
+        <p className="text-sm max-w-3xl">
           Explore our thought-provoking articles, expert interviews, and
           behind-the-scenes updates.
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {articles.map((article) => (
           <div
             key={article.id}

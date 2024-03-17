@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="flex items-center w-full p-10 h-[80vh] bg-slate-50">
-      <div className="flex flex-col my-auto gap-10 w-1/2">
-        <h1 className="text-5xl font-semibold ">
+    <div className="flex flex-col md:flex-row md:items-center gap-4 w-full p-10 lg:h-[80vh] bg-slate-50">
+      <div className="flex flex-col my-auto gap-8 w-full md:w-1/2">
+        <h1 className="text-5xl font-semibold max-w-lg">
           Empowering young <span className="text-orange-500 italic">women</span> through
           technology
         </h1>
@@ -25,7 +25,7 @@ const Hero = () => {
           <Cpu className="pl-2" />
         </Button>
       </div>
-      <div className="w-1/2 pl-10">
+      <div className="w-full md:w-1/2 lg:pl-10">
         <Image
           className="object-cover w-full h-full rounded-md"
           src={hero}

@@ -1,12 +1,16 @@
 import article1 from "@/public/articles/article-1.jpg";
 import article2 from "@/public/articles/article-2.jpg";
 import article3 from "@/public/articles/article-3.jpg";
+import education from "@/public/resources/education.jpg";
+import podcast from "@/public/resources/podcast.jpg";
+import guides from "@/public/resources/guides.jpg";
 
 export const navlinks = [
-  { name: "About", href: "#" },
+  { name: "Articles", href: "#" },
   { name: "Workshops", href: "#" },
-  { name: "Case Studies", href: "#" },
+  { name: "Community", href: "#" },
   { name: "Events", href: "#" },
+  { name: "Resources", href: "#" },
 ];
 
 export const articles = [
@@ -42,5 +46,25 @@ export const articles = [
     readTime: 7,
     image: article3,
     link: "#",
+  },
+];
+
+export const resources = [
+  {
+    image: education,
+    title: "Educational",
+    description:
+      "Coding bootcamps, tech conferences, and leadership workshops.",
+  },
+  {
+    image: podcast,
+    title: "Podcast",
+    description:
+      "Listen to conversations with top female voices in the tech sector.",
+  },
+  {
+    image: guides,
+    title: "GUIDES & TOOLS",
+    description: "Coding languages, design mock-ups or wire-frames.",
   },
 ];
