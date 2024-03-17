@@ -4,6 +4,9 @@ import article3 from "@/public/articles/article-3.jpg";
 import education from "@/public/resources/education.jpg";
 import podcast from "@/public/resources/podcast.jpg";
 import guides from "@/public/resources/guides.jpg";
+import event1 from "@/public/event/event1.jpg";
+import event2 from "@/public/event/event2.jpg";
+import event3 from "@/public/event/event3.jpg";
 
 export const navlinks = [
   { name: "Articles", href: "#" },
@@ -66,5 +69,35 @@ export const resources = [
     image: guides,
     title: "GUIDES & TOOLS",
     description: "Coding languages, design mock-ups or wire-frames.",
+  },
+];
+
+export const events = [
+  {
+    id: 1,
+    title: "Tech Leadership Summit",
+    date: "13 March 2024",
+    location: "London",
+    image: event1,
+    description:
+      "Join us for a day of inspiring talks, workshops, and networking opportunities",
+  },
+  {
+    id: 2,
+    title: "Empowerment in Tech",
+    date: "15 March 2024",
+    location: "New York",
+    image: event2,
+    description:
+      "A workshop in empowering women in tech through networking and education",
+  },
+  {
+    id: 3,
+    title: "Navigating the Tech Industry",
+    date: "17 March 2024",
+    location: "Kigali",
+    image: event3,
+    description:
+      "A panel discussion on the challenges and opportunities faced by women in tech",
   },
 ];

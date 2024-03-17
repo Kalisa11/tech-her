@@ -5,9 +5,9 @@ import { navlinks } from "@/lib/data";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between px-10 py-2 border-b bg-white top-0 sticky z-10">
+    <div className="flex items-center justify-between px-10 py-2 border-b bg-white top-0 sticky z-20">
       <h1 className="flex items-center text-xl font-semibold">
-        Tech-Her
+        Tech-<span className="text-orange-500">Her</span>
         <Cpu className="pl-2"/>
       </h1>
       <div className="md:flex items-center gap-6 text-sm hidden">
