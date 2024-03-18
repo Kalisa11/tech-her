@@ -17,7 +17,7 @@ const Articles = () => {
         {events.map((event) => (
           <div
             key={event.id}
-            className="rounded-r-xl rounded-bl-xl bg-white cursor-pointer shadow-md relative
+            className="rounded-xl bg-white cursor-pointer shadow-md relative
             transition duration-200 transform hover:shadow-lg"
           >
             <Image
@@ -35,7 +35,7 @@ const Articles = () => {
                   <CiCalendar className="h-4 w-4 text-primary" />
                   <p className="text-sm">{event.date}</p>
                 </div>
-                <div className="rounded py-1 px-2 border bg-orange-50 text-orange-500 font-medium w-fit text-sm shadow-sm">
+                <div className="rounded py-1 px-2 bg-orange-50 text-orange-500 font-medium w-fit text-sm shadow-sm">
                   {event.location}
                 </div>
               </div>

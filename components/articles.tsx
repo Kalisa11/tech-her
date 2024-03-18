@@ -20,7 +20,7 @@ const Articles = () => {
         {articles.map((article) => (
           <div
             key={article.id}
-            className="rounded-r-xl rounded-bl-xl bg-slate-50 cursor-pointer shadow-md relative
+            className="rounded-xl bg-slate-50 cursor-pointer shadow-md relative
             transition duration-200 transform hover:shadow-lg"
           >
             <Image

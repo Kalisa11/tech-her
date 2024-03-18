@@ -9,7 +9,7 @@ const Resources = () => {
         {resources.map((resource, index) => (
           <div
             key={index}
-            className="flex flex-col items-start gap-4 border-2 p-4 rounded-xl"
+            className="flex flex-col items-start gap-4 p-4 rounded-xl"
             style={{
               backgroundImage: `url(${resource.image.src})`,
               backgroundSize: "cover",
