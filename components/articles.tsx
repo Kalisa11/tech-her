@@ -37,7 +37,7 @@ const Articles = () => {
                 {article.categories.map((category) => (
                   <div
                     key={category}
-                    className="rounded py-1 px-2 border bg-white w-fit text-xs shadow-sm"
+                    className="rounded py-1 px-2 border bg-orange-50 text-orange-500 w-fit text-xs shadow-sm  "
                   >
                     {category}
                   </div>
@@ -52,7 +52,7 @@ const Articles = () => {
                 </div>
                 <a
                   href="#"
-                  className="text-sm text-primary rounded-full p-1 border border-primary/70 hover:text-gray-600"
+                  className="text-sm text-orange-500 rounded-full p-1 border border-orange-500 hover:text-orange-600 hover:border-orange-600"
                 >
                   <FaArrowRight className="h-4 w-4" />
                 </a>

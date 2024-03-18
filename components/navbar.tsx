@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="md:flex items-center gap-6 text-sm hidden">
         {navlinks.map((link) => (
           <a
-            className="hover:text-gray-500 transition duration-200 text-sm"
+            className="hover:text-orange-500 transition duration-200 text-sm"
             key={link.name}
             href={link.href}
           >
